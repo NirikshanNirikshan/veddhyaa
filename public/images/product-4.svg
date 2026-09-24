@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="675" viewBox="0 0 900 675">
+  <rect width="900" height="675" fill="#e3e9ee"/>
+  <circle cx="450" cy="300" r="155" fill="#102b43"/>
+  <path d="M300 300h300M450 150v300" stroke="#d88920" stroke-width="22" opacity=".9"/>
+  <text x="450" y="570" text-anchor="middle" fill="#0b1f33" font-family="Arial" font-size="40" font-weight="700">PRODUCT 4</text>
+</svg>
