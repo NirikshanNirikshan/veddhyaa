@@ -405,9 +405,18 @@ function App() {
         </div>
       </footer>
 
-      <a className="whatsapp-float" href="#contact" aria-label="Enquire on WhatsApp">
+      {/* <a className="whatsapp-float" href="" aria-label="Enquire on WhatsApp">
         <i className="bi bi-whatsapp"></i>
-      </a>
+      </a> */}
+
+      <button className="whatsapp-float border-0"
+  onClick={() =>
+    (window.location.href =
+      "https://wa.me/919949455449?text=Hello%2C%20I%20am%20interested%20in%20your%20services")
+  }
+>
+  <i className="bi bi-whatsapp"></i>
+</button>
     </>
   );
 }

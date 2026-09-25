@@ -10,12 +10,12 @@ export const company = {
     "Quality-focused engineering products and dependable service for industrial requirements.",
 
   // Replace with exact IndiaMART details
-  phoneDisplay: "+91 XXXXX XXXXX",
-  phoneLink: "+91XXXXXXXXXX",
-  whatsapp: "91XXXXXXXXXX",
-  email: "your-email@example.com",
-  address: "Replace with the exact company address from IndiaMART",
-  workingHours: "Mon - Sat: 9:00 AM - 6:00 PM",
+  phoneDisplay: "+91 9949455449",
+  phoneLink: "+919949455449",
+  whatsapp: "99494 55449",
+  email: "veddhyaametals@gmail.com",
+  address: "Survey no - 626, Pudur Village Rd, Hyderabad, Telangana 501401",
+  workingHours: "Mon - Sat: 9:00 AM - 9:00 PM",
 
   indiaMartProfile:
     "https://www.indiamart.com/veddhyaa-metals-engineering/profile.html",
