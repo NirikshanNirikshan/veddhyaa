@@ -117,9 +117,7 @@ function App() {
                   <a href={`tel:${company.phoneLink}`}>
                     <i className="bi bi-telephone-fill"></i> {company.phoneDisplay}
                   </a>
-                  <a href={company.indiaMartCatalog} target="_blank" rel="noreferrer">
-                    <i className="bi bi-box-arrow-up-right"></i> IndiaMART Catalog
-                  </a>
+                  
                 </div>
               </div>
             </div>
@@ -384,18 +382,26 @@ function App() {
             </div>
             <div className="col-lg-4">
               <h6>Quick Links</h6>
-              <div className="footer-links">
-                <a href="#about">About</a>
-                <a href="#products">Products</a>
-                <a href="#why-us">Why Us</a>
-                <a href="#contact">Contact</a>
+              <div className="footer-links d-inline-block lh-5">
+                <a href="#about" className="pt-2">About</a> <br></br> 
+                <a href="#products " className="pt-5">Products</a> <br></br>
+                <a href="#why-us">Why Us</a> <br></br>
+                <a href="#contact">Contact</a> <br></br>
               </div>
             </div>
             <div className="col-lg-3">
-              <h6>Catalog</h6>
+              <h6>Details</h6>
               <a href={company.indiaMartCatalog} target="_blank" rel="noreferrer" className="footer-external">
-                IndiaMART <i className="bi bi-box-arrow-up-right"></i>
-              </a>
+                 <i class="bi bi-telephone-fill"></i> +91 9949455449
+              </a> <br></br>
+               <br></br> 
+              <a href={company.indiaMartCatalog} target="_blank" rel="noreferrer" className="footer-external">
+                               <i class="bi bi-envelope"></i> veddhyaametals@gmail.com
+              </a> <br></br> <br></br>
+              
+               <a href={company.indiaMartCatalog} target="_blank" rel="noreferrer" className="footer-external">
+                               <i class="bi bi-geo-alt"></i> Survey no - 626, Pudur Village Rd, Hyderabad, Telangana 501401
+                               </a>
             </div>
           </div>
           <div className="footer-bottom">
